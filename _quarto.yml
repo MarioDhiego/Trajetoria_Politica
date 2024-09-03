@@ -1,0 +1,46 @@
+# Preâmbulo Geral
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "**Trajetórias Políticas**"
+  reader-mode: true
+  subtitle: "**Cenários Eleitorais em Marituba**"
+  date: "07/02/2024"
+  author:
+  - name: "**Estatístico Responsável: Mário Diego**"
+  - name: "**Registro CONRE: 8458**"
+  - name: "**Tipo de Pesquisa: Eleitoral**"
+    corresponding: true
+
+  page-footer:
+    left: |
+      Copyright: (VALENTE et. al, 2024)
+    right: |
+      Construído <a href="https://quarto.org/">Pacote Quarto no R4.3</a>.
+  cover-image: Governo_Para.png
+  favicon: Governo_Para.png
+  repo-url : https://github.com/MarioDhiego/Estatistica_Municipal_Fapespa_Belem
+  repo-branch: main
+  repo-actions: [edit, issue]
+  downloads: [pdf, docx]
+  sharing: [twitter, facebook]
+  page-navigation: true
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - tabelas.qmd
+    - probabilidades.qmd
+    - references.qmd
+comments:
+  hypothesis: true
+bibliography: references.bib
+format:
+  html:
+    theme:
+      light: [blue,custom.scss]
+      dark:  [cyborg,custom.scss]
+    code-link: true
+    toc-title: Índice
+    toc-location: right

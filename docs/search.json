@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Trajetórias Políticas",
+    "section": "",
+    "text": "Prefácio"
+  },
+  {
+    "objectID": "intro.html#delineamento-da-pesquisa",
+    "href": "intro.html#delineamento-da-pesquisa",
+    "title": "1  Metodologia da Pesquisa",
+    "section": "1.1 Delineamento da Pesquisa",
+    "text": "1.1 Delineamento da Pesquisa\n\nTipo da Pesquisa: pesquisa de opinião pública, do tipo quantitativo, que consiste na realização de entrevistas pessoais, com aplicação de questionário estruturado junto a uma amostra representativa do eleitorado no município de Marituba tomado como universo da pesquisa.\nObjetivo da Pesquisa: é levantar junto à população de eleitores na cidade de Marituba a intensão de votos para o próximo pleito eleitoral para Prefeitura.\nPúblico Alvo: Eleitores com 16 anos ou mais aptos a participarem do pleito eleitoral de 2020, com domicílio eleitoral na cidade de Marituba.\nÁrea Física: Município de Marituba, concentrado em 18 bairros e 33 pontos de abordagem sorteados aleatoriamente, com base nos locais de moradia, votação e pontos estratégicos, respeitando os conglomerados urbanos e rurais."
+  },
+  {
+    "objectID": "intro.html#amostragem",
+    "href": "intro.html#amostragem",
+    "title": "1  Metodologia da Pesquisa",
+    "section": "1.2 Amostragem",
+    "text": "1.2 Amostragem\n\nTamanho da Amostra: a amostra é composta por 620 eleitores entrevistados (tabela 1), tomando como base 78.803 eleitores conforme divulgação do TSE em agosto/2020.\nMétodo de Amostragem: Amostragem Aleatória Estratificada Proporcional ao Tamanho: Área Geográfica, Sexo, Idade, Grau de Instrução e Nível Socioeconômico, de acordo com os dados do TSE (eleitorado agosto/2020).\nPonderação dos Estratos Amostrais: os respondentes serão selecionados através de quotas amostrais proporcionais dos estratos reconhecidos pelo TSE (Agosto/2019) em função das variáveis, agrupando-as conforme a natureza do levantamento: Sexo: masculino, 47%, feminino 53%; Idade: 16 a 24 anos, 18,7%, 25 a 34 anos: 24,5%, 35 a 44 anos: 23,3%, 45 a 59 anos: 22,5% e 60 anos ou mais: 11%; Grau de Instrução: sem escolaridades: 1,3%; Ensino Fundamental: 35,3%, Ensino Médio: 50,5%, Ensino Superior: 9%.\nMargem de Erro: O nível de confiança estimado é de 95% e a margem de erro máxima estimada considerando um modelo de amostragem aleatória estratificada, é de 5% para mais ou para menos sobre os resultados encontrados no total da amostra.\nFonte dos Dados: número de eleitores conforme divulgação do TSE em agosto de 2020, combinado com os dados do CENSO 2010 e PNAD 2016.\nPesquisadores de Campo: os pesquisadores e supervisores de campo contratados para aplicação dos formulários desta pesquisa foram treinados pela equipe técnica com instrução adequadas para atingir a meta e o objetivo do cliente."
+  },
+  {
+    "objectID": "tabelas.html",
+    "href": "tabelas.html",
+    "title": "2  Análise Quantitativa",
+    "section": "",
+    "text": "Inicialmente, foi aplicado um Pesquisa Eleitoral Mista, dividida uma parte quantitativa com 23 perguntas fechada, e, uma parte qualitativa, composta de 5 perguntas abertas. Como primeira etapa estatística, foi verificado a consistência dos questionário aplicados, fazendo a revisão sistemática de todos os itens quantitativos do instrumento, com montagem e manutenção de um banco de dados no software estatístico SPSS versão for Windows 23.0.\nPosteriormente, foi gerado uma Análise Descritiva de Dados, combinando todos os itens do questionário discriminados em dois cenários para intenção de votos de forma Espontânea e Estimulada. Por conseguinte, a análise descritiva foi pautada em tabelas de contingência dos candidatos versus características socioeconômica, Problemas estruturantes em cenários de Possível Votação e Não Votação."
+  },
+  {
+    "objectID": "probabilidades.html",
+    "href": "probabilidades.html",
+    "title": "3  Projeção de Cenários",
+    "section": "",
+    "text": "Com base nas respostas de Intenção de voto pata Prefeito, discriminadas por características socioeconômicas no município de Marituba em agosto de 2020, verificou-se que, existe uma lacuna de eleitores e necessidades de ações para impulsionar a probabilidade de definição a votar no candidato Mello.\nNesse contexto, foi gerado um Modelo de Probabilidade pra Votação no Candidato Mello, usando a Técnica Estatística de “Regressão Logística Binária Múltipla”, levando em consideração todas as variáveis socioeconômicas e estruturantes da parte quantitativa da pesquisa.\nO modelo de previsão final, após diversas simulações, com base nos critérios de parcimônia e erro de classificação e ajustes, ficou com coeficiente de explicação de 79% e erro de 21%.\n\\[ P(Y = Votar_{(Melo)}) = a \\ Probabilidade de \\ Votar \\ no \\ Candidadto \\ Melo\\]\n\nA probabilidade é 1,6 vezes MAIOR quando eleitor e do gênero masculino;\nA probabilidade é 2,8 vezes MAIOR quando eleitor tem faixa etária > 45\nA probabilidade é 2,2 vezes MAIOR quando o eleitor diz sem religião;\nA probabilidade é 4,5 vezes MAIOR quando eleitor e Tem como laser Futebol;\nA probabilidade é 2,6 vezes MENOR quando eleitor diz que o problema hoje e emprego e saúde;\nA probabilidade é 3,5 vezes MENOR quando eleitor e do gênero feminino e Evangélico;\nA probabilidade é 3,5 vezes MENOR quando eleitor avalia a gestão atual do Prefeito como Regular."
+  }
+]

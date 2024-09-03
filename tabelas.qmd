@@ -1,0 +1,26 @@
+```{=html}
+<style>
+  body{text-align: justify}
+</style>
+```
+
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+
+
+# **Análise Quantitativa**
+
+
+Inicialmente, foi aplicado um Pesquisa Eleitoral Mista, dividida uma parte quantitativa com 23 perguntas fechada, e, uma parte qualitativa, composta de 5 perguntas abertas. Como primeira etapa estatística, foi verificado a consistência dos questionário aplicados, fazendo a revisão sistemática de todos os itens quantitativos do instrumento, com montagem e manutenção de um banco de dados na Linguagem de Programação $R_{4.4}$.
+
+Posteriormente, foi gerado uma Análise Descritiva de Dados, combinando todos os itens do questionário discriminados em dois cenários para intenção de votos de forma Espontânea e Estimulada. Por conseguinte, a análise descritiva foi pautada em tabelas de contingência dos candidatos versus características socioeconômica, Problemas estruturantes em cenários de Possível Votação e Não Votação.
+
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::

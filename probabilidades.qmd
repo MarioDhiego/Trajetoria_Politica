@@ -1,0 +1,32 @@
+```{=html}
+<style>
+  body{text-align: justify}
+</style>
+```
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+# **Projeção de Cenários**
+
+Com base nas respostas de Intenção de voto pata Prefeito, discriminadas por características socioeconômicas no município de Marituba em agosto de 2020, verificou-se que, existe uma lacuna de eleitores e necessidades de ações para impulsionar a probabilidade de definição a votar no candidato Mello.
+
+Nesse contexto, foi gerado um Modelo de Probabilidade pra Votação no Candidato Mello, usando a Técnica Estatística de "**Regressão Logística Binária Múltipla**", levando em consideração todas as variáveis socioeconômicas e estruturantes da parte quantitativa da pesquisa.
+
+O modelo de previsão final, após diversas simulações, com base nos critérios de parcimônia e erro de classificação e ajustes, ficou com coeficiente de explicação de 79% e erro de 21%.
+
+$$ P(Y = Votar_{(Melo)}) = a \ Probabilidade de \ Votar \ no \ Candidadto \ Melo$$
+
+1.  A probabilidade é **1,6 vezes MAIOR** quando eleitor e do gênero masculino;
+2.  A probabilidade é **2,8 vezes MAIOR** quando eleitor tem faixa etária > 45
+3.  A probabilidade é **2,2 vezes MAIOR** quando o eleitor diz sem religião;
+4.  A probabilidade é **4,5 vezes MAIOR** quando eleitor e Tem como laser Futebol;
+5.  A probabilidade é **2,6 vezes MENOR** quando eleitor diz que o problema hoje e emprego e saúde;
+6.  A probabilidade é **3,5 vezes MENOR** quando eleitor e do gênero Feminino/Evangélico;
+7.  A probabilidade é **3,5 vezes MENOR** quando eleitor avalia a gestão atual do Prefeito como Regular.
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
