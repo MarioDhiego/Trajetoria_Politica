@@ -43,28 +43,27 @@ Será apresnetado os aspectos principais de uma pesquisa eleitoral, levando em c
 
 7.  **Delimitação do Bairro**: dados
 
-|  Nº  |  Bairros       | Col3 | Col4 | Col5 | Col6 |
-|:----:|  :----:        |:----:|:----:|:----:|:----:|
-|   1  |  Centro        |      |      |      |      |
-|   2  |  Decouville    |      |      |      |      |
-|   3  |  Almir Gabriel |      |      |      |      |
-|   4  |  Mirizal       |      |      |      |      |
-|   5  |  São Francisco |      |      |      |      |
-|   6  |      |      |      |      |      |
-|   7  |      |      |      |      |      |
-|   8  |      |      |      |      |      |
-|   9  |      |      |      |      |      |
-|  10  |      |      |      |      |      |
-|      |      |      |      |      |      |
-|      |      |      |      |      |      |
-|      |      |      |      |      |      |
-|      |      |      |      |      |      |
-|      |      |      |      |      |      |
-|      |      |      |      |      |      |
-|      |      |      |      |      |      |
-|      |      |      |      |      |      |
-|      |      |      |      |      |      |
-|      |      |      |      |      |      |
+|   Nº  |      Bairros    | Nº Votação | Nº de Eleitores |    %   | Amostra |
+|:----: |  :----:         |    :----:  |     :----:      | :----: | :----:  |
+|   1   |  Centro         |  45        |   15.590        | 20.04% |  124    |
+|   2   |  Decouville     |  44        |   15.596        | 20.04% |  124    |
+|   3   |  Almir Gabriel  |  26        |   7.793         | 10.02% |   62    |
+|   4   |  Mirizal        |  16        |    5.491        |  7.06% |   44    |
+|   5   |  São Francisco  |  15        |    5.132        |  6.60% |   41    |
+|   6   |  Dom Aristides  |  12        |    4.560        |  5.86% |   36    |
+|   7   |  Novo           |  10        |    3.966        |  5,10% |   44    |
+|   8   |  Pedreirinha    |  12        |    3.836        |  4,93% |   41    |
+|   9   |  Novo Horizonte |  10        |    3.549        |  4,56% |   28    |
+|  10   |  Pato Macho     |  8         |    2.584        |  3,32% |   21    |
+|  11   |  São José       |  8         |    2.510        |  3.23% |   20    |
+|  12   |  Uriboca        |  6         |    2.160        |  2.78% |   17    |
+|  13   |  Nova União     |  5         |    1.586        |  2.04% |   13    |
+|  14   |  Riacho Doce    |  3         |    1.192        |  1.53% |   09    |
+|  15   |  Colônia        |  4         |      818        |  1.05  |   07    |
+|  16   |  Bela Vista     |  2         |      440        |  0.57% |   04    |
+|  17   |  Parque Verde   |  3         |      854        |  1.1%  |   07    |
+|  18   |  Santa Clara    |  1         |      153        |  0.2%  |   01    |
+| Total |   TOTAL         |  230       |    77.810       |  100   |   620   |
 
 : Locais de Votação, por Bairros no Município de Marituba.
 
