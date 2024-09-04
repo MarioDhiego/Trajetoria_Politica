@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.2.269">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-
 <title>Trajetórias Políticas - 2&nbsp; Análise Quantitativa</title>
 <style>
 code{white-space: pre-wrap;}
@@ -20,8 +17,70 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
-
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
@@ -30,7 +89,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./probabilidades.html" rel="next">
+<link href="./qualitativa.html" rel="next">
 <link href="./intro.html" rel="prev">
 <link href="./Governo_Para.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
@@ -43,8 +102,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<script id="quarto-search-options" type="application/json">{
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark"><script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
@@ -62,37 +120,32 @@ ul.task-list li input[type="checkbox"] {
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit"
   }
-}</script>
-<script async="" src="https://hypothes.is/embed.js"></script>
-
-
+}</script><script async="" src="https://hypothes.is/embed.js"></script><link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script><script src="site_libs/plotly-binding-4.10.4/plotly.js"></script><script src="site_libs/typedarray-0.1/typedarray.min.js"></script><script src="site_libs/jquery-3.5.1/jquery.min.js"></script><link href="site_libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet">
+<script src="site_libs/crosstalk-1.2.1/js/crosstalk.min.js"></script><link href="site_libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet">
+<script src="site_libs/plotly-main-2.11.1/plotly-latest.min.js"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 </head>
-
 <body class="nav-sidebar floating">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title"><strong>Análise Quantitativa</strong></span></h1>
+  <header id="quarto-header" class="headroom fixed-top"><nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }"><div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">
+<span class="chapter-number">2</span>&nbsp; <span class="chapter-title"><strong>Análise Quantitativa</strong></span>
+</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
     </div>
-  </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+  </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto"><div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./"><strong>Trajetórias Políticas</strong></a> 
         <div class="sidebar-tools-main tools-wide">
-    <a href="https://github.com/MarioDhiego/Estatistica_Municipal_Fapespa_Belem" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+    <a href="https://github.com/MarioDhiego" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
     <a href="" title="Download" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-download"></i></a>
     <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
-        <li>
+<li>
           <a class="dropdown-item sidebar-tools-main-item" href="./--Trajetórias-Políticas--.pdf">
             <i class="bi bi-bi-file-pdf pe-1"></i>
           Download PDF
@@ -105,22 +158,22 @@ ul.task-list li input[type="checkbox"] {
           </a>
         </li>
     </ul>
-    <a href="" title="Share" id="sidebar-tool-dropdown-1" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-share"></i></a>
+<a href="" title="Share" id="sidebar-tool-dropdown-1" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-share"></i></a>
     <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-1">
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
+<li>
+          <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=%7Curl%7C">
             <i class="bi bi-bi-twitter pe-1"></i>
           Twitter
           </a>
         </li>
         <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
+          <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=%7Curl%7C">
             <i class="bi bi-bi-facebook pe-1"></i>
           Facebook
           </a>
         </li>
     </ul>
-  <a href="" class="quarto-color-scheme-toggle sidebar-tool" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+<a href="" class="quarto-color-scheme-toggle sidebar-tool" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
   <a href="" class="quarto-reader-toggle sidebar-tool" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
   <div class="quarto-reader-toggle-btn">
   <i class="bi"></i>
@@ -136,14 +189,14 @@ ul.task-list li input[type="checkbox"] {
       </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">Prefácio</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title"><strong>Metodologia da Pesquisa</strong></span></a>
+  <a href="./intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title"><strong>Metodologia</strong></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -153,27 +206,34 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./probabilidades.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title"><strong>Projeção de Cenários</strong></span></a>
+  <a href="./qualitativa.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title"><strong>Análise Qualitativa</strong></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Referências</span></a>
+  <a href="./probabilidades.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title"><strong>Projeção de Cenários</strong></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Referências</span></a>
   </div>
 </li>
     </ul>
-    </div>
-</nav>
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+</div>
+</nav><!-- margin-sidebar --><div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">Índice</h2>
+   
+  <ul>
+<li><a href="#carregando-os-pacotes" id="toc-carregando-os-pacotes" class="nav-link active" data-scroll-target="#carregando-os-pacotes"><span class="toc-section-number">2.0.1</span>  <strong>Carregando os Pacotes</strong></a></li>
+  <li><a href="#visualiza%C3%A7%C3%A3o-gr%C3%A1fica" id="toc-visualização-gráfica" class="nav-link" data-scroll-target="#visualiza%C3%A7%C3%A3o-gr%C3%A1fica"><span class="toc-section-number">2.0.2</span>  <strong>Visualização Gráfica</strong></a></li>
+  </ul><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/MarioDhiego/edit/main/tabelas.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/MarioDhiego/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title"><strong>Análise Quantitativa</strong></span></h1>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
+<h1 class="title d-none d-lg-block">
+<span class="chapter-number">2</span>&nbsp; <span class="chapter-title"><strong>Análise Quantitativa</strong></span>
+</h1>
 </div>
 
 
@@ -186,9 +246,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
-</header>
-
-<style>
+</header><style>
   body{text-align: justify}
 </style>
 <div class="progress">
@@ -196,8 +254,61 @@ ul.task-list li input[type="checkbox"] {
 
 </div>
 </div>
-<p>Inicialmente, foi aplicado um Pesquisa Eleitoral Mista, dividida uma parte quantitativa com 23 perguntas fechada, e, uma parte qualitativa, composta de 5 perguntas abertas. Como primeira etapa estatística, foi verificado a consistência dos questionário aplicados, fazendo a revisão sistemática de todos os itens quantitativos do instrumento, com montagem e manutenção de um banco de dados no software estatístico SPSS versão for Windows 23.0.</p>
-<p>Posteriormente, foi gerado uma Análise Descritiva de Dados, combinando todos os itens do questionário discriminados em dois cenários para intenção de votos de forma Espontânea e Estimulada. Por conseguinte, a análise descritiva foi pautada em tabelas de contingência dos candidatos versus características socioeconômica, Problemas estruturantes em cenários de Possível Votação e Não Votação.</p>
+<p>Inicialmente, foi aplicado um Pesquisa Eleitoral Mista, dividida uma parte quantitativa com 23 perguntas fechada, e, uma parte qualitativa, composta de 5 perguntas abertas. Como primeira etapa estatística, foi verificado a consistência dos questionário aplicados, fazendo a revisão sistemática de todos os itens quantitativos do instrumento, com montagem e manutenção de um banco de dados na Linguagem de Programação <span class="math inline">\(R_{4.4}\)</span>.</p>
+<p>Posteriormente, foi gerado uma Análise Descritiva de Dados, combinando todos os itens do questionário discriminados em dois cenários para intenção de votos de forma <strong>Espontânea e Estimulada</strong>. Por conseguinte, a análise descritiva foi pautada em tabelas de contingência dos candidatos versus características socioeconômica, Problemas estruturantes em cenários de <strong>Possível Votação</strong> e <strong>Não Votação</strong>.</p>
+<div class="progress">
+<div class="progress-bar" style="width: 100%;">
+
+</div>
+</div>
+<section id="carregando-os-pacotes" class="level3" data-number="2.0.1"><h3 data-number="2.0.1" class="anchored" data-anchor-id="carregando-os-pacotes">
+<span class="header-section-number">2.0.1</span> <strong>Carregando os Pacotes</strong>
+</h3>
+<p>Pacotes utilizados para a geração do gráfico.</p>
+<div class="cell">
+<details><summary>Code</summary><div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://readxl.tidyverse.org">readxl</a></span><span class="op">)</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://dplyr.tidyverse.org">dplyr</a></span><span class="op">)</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://ggplot2.tidyverse.org">ggplot2</a></span><span class="op">)</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://plotly-r.com">plotly</a></span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<div class="progress">
+<div class="progress-bar" style="width: 100%;">
+
+</div>
+</div>
+</section><section id="visualização-gráfica" class="level3" data-number="2.0.2"><h3 data-number="2.0.2" class="anchored" data-anchor-id="visualização-gráfica">
+<span class="header-section-number">2.0.2</span> <strong>Visualização Gráfica</strong>
+</h3>
+<div class="cell">
+<details><summary>Code</summary><div class="sourceCode" id="cb2"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Data Frame</span></span>
+<span><span class="va">dados</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html">data.frame</a></span><span class="op">(</span></span>
+<span>  Candidatos <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"Everaldo"</span>, <span class="st">"Mello"</span>, <span class="st">"Patrícia"</span>",<span class="st">"Batista"</span>",<span class="st">"Nulo"</span>", </span>
+<span>                 <span class="st">"Roberto"</span>, <span class="st">"Bruno"</span>, <span class="st">"Santa Brígida"</span>",<span class="st">"Prof. Lôri"</span><span class="op">)</span>"),</span>
+<span>  Percentual <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">27.6</span>, <span class="fl">22.2</span>, <span class="fl">17.3</span>, <span class="fl">12.4</span>, <span class="fl">10.4</span>, <span class="fl">8.3</span>, <span class="fl">0.8</span>, <span class="fl">0.6</span>, <span class="fl">0.4</span><span class="op">)</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Gráfico de Barras</span>s</span>
+<span><span class="va">grafico1</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/ggplot2/man/ggplot.html">ggplot</a></span><span class="op">(</span><span class="va">dados</span>, <span class="fu"><a href="https://rdrr.io/pkg/ggplot2/man/aes.html">aes</a></span><span class="op">(</span>x <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/stats/reorder.factor.html">reorder</a></span><span class="op">(</span><span class="va">Candidatos</span>,<span class="op">-</span><span class="va">Percentual</span><span class="op">)</span>, y <span class="op">=</span> <span class="va">Percentual</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  <span class="fu"><a href="https://rdrr.io/pkg/ggplot2/man/geom_bar.html">geom_bar</a></span><span class="op">(</span>stat <span class="op">=</span> <span class="st">"identity"</span>, fill <span class="op">=</span> <span class="st">"skyblue"</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  <span class="fu"><a href="https://rdrr.io/pkg/ggplot2/man/geom_text.html">geom_text</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/pkg/ggplot2/man/aes.html">aes</a></span><span class="op">(</span>label <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/paste.html">paste0</a></span><span class="op">(</span><span class="va">Percentual</span>, <span class="st">"%"</span><span class="op">)</span><span class="op">)</span>, </span>
+<span>                hjust <span class="op">=</span> <span class="fl">0.5</span>, size <span class="op">=</span> <span class="fl">3.5</span><span class="op">)</span> <span class="op">+</span>  <span class="co"># rótulos/percentuais</span>s</span>
+<span>  <span class="co">#coord_flip() +                           # Barras na horizontal</span></span>
+<span>  <span class="fu"><a href="https://rdrr.io/pkg/ggplot2/man/labs.html">labs</a></span><span class="op">(</span>title <span class="op">=</span> <span class="st">"Intensão de Voto 1º Turno"</span>o",</span>
+<span>       x <span class="op">=</span> <span class="st">"CANDIDATOS"</span>,</span>
+<span>       y <span class="op">=</span> <span class="st">"Percentual (%)"</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  <span class="fu"><a href="https://rdrr.io/pkg/ggplot2/man/scale_continuous.html">scale_y_continuous</a></span><span class="op">(</span>limits <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">0</span>, <span class="fl">30</span><span class="op">)</span>,            <span class="co"># Limites do eixo Y</span></span>
+<span>                     breaks <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/seq.html">seq</a></span><span class="op">(</span><span class="fl">0</span>, <span class="fl">30</span>, by <span class="op">=</span> <span class="fl">5</span><span class="op">)</span>,  <span class="co"># Intervalos de 5 em 5</span></span>
+<span>                     labels <span class="op">=</span> <span class="kw">function</span><span class="op">(</span><span class="va">x</span><span class="op">)</span> <span class="fu"><a href="https://rdrr.io/r/base/paste.html">paste0</a></span><span class="op">(</span><span class="va">x</span>, <span class="st">"%"</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  <span class="fu"><a href="https://rdrr.io/pkg/ggplot2/man/theme.html">theme</a></span><span class="op">(</span>axis.text.x <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/pkg/ggplot2/man/element.html">element_text</a></span><span class="op">(</span>face <span class="op">=</span> <span class="st">"bold"</span><span class="op">)</span>,</span>
+<span>        plot.title <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/pkg/ggplot2/man/element.html">element_text</a></span><span class="op">(</span>hjust <span class="op">=</span> <span class="fl">0.5</span><span class="op">)</span><span class="op">)</span><span class="op">+</span> </span>
+<span>  <span class="fu"><a href="https://rdrr.io/pkg/ggplot2/man/ggtheme.html">theme_gray</a></span><span class="op">(</span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rdrr.io/pkg/plotly/man/ggplotly.html">ggplotly</a></span><span class="op">(</span><span class="va">grafico1</span><span class="op">)</span>                          <span class="co"># Deixar Interativo</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details><div id="fig-airquality2" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure"><div class="plotly html-widget html-fill-item" id="htmlwidget-d1bc9234a023c1db6310" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-d1bc9234a023c1db6310">{"x":{"data":[{"orientation":"v","width":[0.89999999999999991,0.90000000000000013,0.90000000000000036,0.90000000000000036,0.90000000000000036,0.90000000000000036,0.90000000000000036,0.89999999999999947,0.89999999999999858],"base":[0,0,0,0,0,0,0,0,0],"x":[1,2,3,4,5,6,7,8,9],"y":[27.600000000000001,22.199999999999999,17.300000000000001,12.4,10.4,8.3000000000000007,0.80000000000000004,0.59999999999999998,0.40000000000000002],"text":["reorder(Candidatos, -Percentual): Everaldo<br />Percentual: 27.6","reorder(Candidatos, -Percentual): Mello<br />Percentual: 22.2","reorder(Candidatos, -Percentual): Patrícia<br />Percentual: 17.3","reorder(Candidatos, -Percentual): Batista<br />Percentual: 12.4","reorder(Candidatos, -Percentual): Nulo<br />Percentual: 10.4","reorder(Candidatos, -Percentual): Roberto<br />Percentual:  8.3","reorder(Candidatos, -Percentual): Bruno<br />Percentual:  0.8","reorder(Candidatos, -Percentual): Santa Brígida<br />Percentual:  0.6","reorder(Candidatos, -Percentual): Prof. Lôri<br />Percentual:  0.4"],"type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(135,206,235,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[1,2,3,4,5,6,7,8,9],"y":[27.600000000000001,22.199999999999999,17.300000000000001,12.4,10.4,8.3000000000000007,0.80000000000000004,0.59999999999999998,0.40000000000000002],"text":["27.6%","22.2%","17.3%","12.4%","10.4%","8.3%","0.8%","0.6%","0.4%"],"hovertext":["reorder(Candidatos, -Percentual): Everaldo<br />Percentual: 27.6<br />paste0(Percentual, \"%\"): 27.6%","reorder(Candidatos, -Percentual): Mello<br />Percentual: 22.2<br />paste0(Percentual, \"%\"): 22.2%","reorder(Candidatos, -Percentual): Patrícia<br />Percentual: 17.3<br />paste0(Percentual, \"%\"): 17.3%","reorder(Candidatos, -Percentual): Batista<br />Percentual: 12.4<br />paste0(Percentual, \"%\"): 12.4%","reorder(Candidatos, -Percentual): Nulo<br />Percentual: 10.4<br />paste0(Percentual, \"%\"): 10.4%","reorder(Candidatos, -Percentual): Roberto<br />Percentual:  8.3<br />paste0(Percentual, \"%\"): 8.3%","reorder(Candidatos, -Percentual): Bruno<br />Percentual:  0.8<br />paste0(Percentual, \"%\"): 0.8%","reorder(Candidatos, -Percentual): Santa Brígida<br />Percentual:  0.6<br />paste0(Percentual, \"%\"): 0.6%","reorder(Candidatos, -Percentual): Prof. Lôri<br />Percentual:  0.4<br />paste0(Percentual, \"%\"): 0.4%"],"textfont":{"size":13.228346456692915,"color":"rgba(0,0,0,1)"},"type":"scatter","mode":"text","hoveron":"points","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":43.762557077625573,"r":7.3059360730593621,"b":40.182648401826491,"l":43.105022831050235},"plot_bgcolor":"rgba(235,235,235,1)","paper_bgcolor":"rgba(255,255,255,1)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724},"title":{"text":"Intensão de Voto 1º Turno","font":{"color":"rgba(0,0,0,1)","family":"","size":17.534246575342465},"x":0,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[0.40000000000000002,9.5999999999999996],"tickmode":"array","ticktext":["Everaldo","Mello","Patrícia","Batista","Nulo","Roberto","Bruno","Santa Brígida","Prof. Lôri"],"tickvals":[1,2,3,4,5,6,6.9999999999999991,8,9],"categoryorder":"array","categoryarray":["Everaldo","Mello","Patrícia","Batista","Nulo","Roberto","Bruno","Santa Brígida","Prof. Lôri"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.6529680365296811,"tickwidth":0.66417600664176002,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(255,255,255,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"y","title":{"text":"CANDIDATOS","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-1.5,31.5],"tickmode":"array","ticktext":["0%","5%","10%","15%","20%","25%","30%"],"tickvals":[0,5,10,15,20,25,30],"categoryorder":"array","categoryarray":["0%","5%","10%","15%","20%","25%","30%"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.6529680365296811,"tickwidth":0.66417600664176002,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(255,255,255,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"x","title":{"text":"Percentual (%)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":"rgba(255,255,255,1)","bordercolor":"transparent","borderwidth":1.8897637795275593,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.68949771689498}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"source":"A","attrs":{"1784c66585":{"x":{},"y":{},"type":"bar"},"178424ea26d9":{"x":{},"y":{},"label":{}}},"cur_data":"1784c66585","visdat":{"1784c66585":["function (y) ","x"],"178424ea26d9":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script><p></p><figcaption class="figure-caption">Figure&nbsp;2.1: Intenção de Voto para Candidatos a Prefeito (estimulada) para 1º Turno.</figcaption><p></p>
+</figure>
+</div>
+</div>
 <div class="progress">
 <div class="progress-bar" style="width: 100%;">
 
@@ -205,9 +316,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 
 
-
-</main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+</section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -454,27 +563,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
-</script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
+</script><nav class="page-navigation"><div class="nav-page nav-page-previous">
       <a href="./intro.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title"><strong>Metodologia da Pesquisa</strong></span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title"><strong>Metodologia</strong></span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./probabilidades.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title"><strong>Projeção de Cenários</strong></span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./qualitativa.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title"><strong>Análise Qualitativa</strong></span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
 </div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
+<footer class="footer"><div class="nav-footer">
     <div class="nav-footer-left">Copyright: (VALENTE et. al, 2024)</div>   
     <div class="nav-footer-right">Construído <a href="https://quarto.org/">Pacote Quarto no R4.3</a>.</div>
   </div>
 </footer>
-
 
 
 </body></html>

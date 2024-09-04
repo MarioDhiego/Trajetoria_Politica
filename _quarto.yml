@@ -21,7 +21,7 @@ book:
       Construído <a href="https://quarto.org/">Pacote Quarto no R4.3</a>.
   cover-image: Governo_Para.png
   favicon: Governo_Para.png
-  repo-url : https://github.com/MarioDhiego/Estatistica_Municipal_Fapespa_Belem
+  repo-url : https://github.com/MarioDhiego
   repo-branch: main
   repo-actions: [edit, issue]
   downloads: [pdf, docx]
@@ -31,6 +31,7 @@ book:
     - index.qmd
     - intro.qmd
     - tabelas.qmd
+    - qualitativa.qmd
     - probabilidades.qmd
     - references.qmd
 comments:
@@ -42,5 +43,6 @@ format:
       light: [blue,custom.scss]
       dark:  [cyborg,custom.scss]
     code-link: true
+    code-fold: true
     toc-title: Índice
     toc-location: right

@@ -1,0 +1,100 @@
+
+```{=html}
+<style>
+  body{text-align: justify}
+</style>
+```
+
+
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+
+# **Análise Qualitativa**
+
+A parte qualitativa foi aplicado através de um formato de entrevistas Semi-Estruturadas, gravadas em celular Iphone 10, e transcritas para corpus de texto, utilizando a linguagem de programação $R_{4.3}$.
+
+Ao passo, foram analisadas as frequências das repetições das palavras no contexto geral de todas as frases.
+
+Posteriormente, aplicou-se a técnica chamada **Mineração de Texto** via **Análise de Sentimento**, ponderando a entrevista por meio de Dicionários Léxicos de palavras, em polaridades com discursos ao candidato classificando do tipo: Positivo e Negativo.
+
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+## Candidato Melo
+
+A maioria dos eleitores tem um discurso com polaridade do **Tipo Negativo** em relação ao candidato Mello, com destaque para alguns itens descritos na maioria das entrevistas.
+
+1. Pontos Fracos do Melo
+- Número Alto de Pessoas Indecisos para Candidato Mello, devido:
+  - Não Conhecer o Candidato; 
+  - Não ver Andando pelos Bairros de Periferias;
+  - Não ver o Candidato Engajado em Obras Ligadas a:
+    - Saneamento Básico;
+    - Saúde;
+    - Geração de Emprego;
+2. Mulheres Evangélicas tem baixa intenção para o candidato Mello;
+3. Eleitores sem Religião tem baixa intenção de voto;
+4. Maiores problemas hoje nos bairros: Centro+Decouville+Pedreirinha)
+5. Maiores Prioridades
+   - Emprego;
+   - Saúde;
+   - Asfalto;
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+
+## Candidato Patrícia Mendes
+
+A maioria dos eleitores tem um discurso com polaridade do **Tipo Negativo** em relação ao candidato Patrícia Mendes, com destaque para alguns itens descritos na maioria das entrevistas.
+
+
+1. Pontos Fracos da Patrícia Mendes
+- Número Alto de Pessoas Indecisos para Candidato Patrícia, devido:
+   - Não Conhecer a Candidata, devido a mesma não morar na Cidade; 
+   - Não saber com clareza sua proposta de trabalho;
+   - Iniciante na Política, Pouca Experiência;
+   - Está Prometendo Muita Coisa;
+2. Homens Católicos, tem baixa intenção de voto;
+3. Eleitores acima de 45 anos, tem baixa intenção de voto;
+4. Maiores problemas hoje nos bairros: Centro+Decouville+Almir Gabriel)
+   - Esgoto;
+   - Segurança;
+   - Saúde;
+5. Maiores Prioridades pós Eleição
+   - Emprego;
+   - Saúde;
+   - Asfalto;
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+## **Visão Geral Independente do Candidato**
+
+O que esperam os eleitores no município de Marituba, em relação ao Novo Prefeito.
+
+1. Emprego;
+2. Infraestrutura;
+3. Saneamento Básico
+   - Coleta de Lixo;
+   - Estação de Tratamento de Àgua;
+4. Saúde
+5. Projetos Sociais p/ Jovens;
+
+
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::

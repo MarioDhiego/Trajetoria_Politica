@@ -1,7 +1,84 @@
+
 ```{=html}
 <style>
   body{text-align: justify}
 </style>
+```
+
+
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+# **Análise Quantitativa**
+
+Inicialmente, foi aplicado um Pesquisa Eleitoral Mista, dividida uma parte quantitativa com 23 perguntas fechada, e, uma parte qualitativa, composta de 5 perguntas abertas. Como primeira etapa estatística, foi verificado a consistência dos questionário aplicados, fazendo a revisão sistemática de todos os itens quantitativos do instrumento, com montagem e manutenção de um banco de dados na Linguagem de Programação $R_{4.4}$.
+
+Posteriormente, foi gerado uma Análise Descritiva de Dados, combinando todos os itens do questionário discriminados em dois cenários para intenção de votos de forma **Espontânea e Estimulada**. Por conseguinte, a análise descritiva foi pautada em tabelas de contingência dos candidatos versus características socioeconômica, Problemas estruturantes em cenários de **Possível Votação** e **Não Votação**.
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+
+### **Carregando os Pacotes**
+Pacotes utilizados para a geração do gráfico.
+
+
+```{r}
+#| label: fig-airquality1
+#| fig-cap: "Pacotes para Carregamento."
+#| warning: false
+
+library(readxl)
+library(dplyr)
+library(ggplot2)
+library(plotly)
+```
+
+
+
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+
+### **Visualização Gráfica**
+
+
+```{r}
+#| label: fig-airquality2
+#| fig-cap: "Intenção de Voto para Candidatos a Prefeito (estimulada) para 1º Turno."
+#| warning: false
+
+
+# Data Frame
+dados <- data.frame(
+  Candidatos = c("Everaldo", "Mello", "Patrícia", "Batista", "Nulo", 
+                 "Roberto", "Bruno", "Santa Brígida", "Prof. Lôri"),
+  Percentual = c(27.6, 22.2, 17.3, 12.4, 10.4, 8.3, 0.8, 0.6, 0.4))
+
+# Gráfico de Barras
+grafico1 <- ggplot(dados, aes(x = reorder(Candidatos,-Percentual), y = Percentual)) +
+  geom_bar(stat = "identity", fill = "skyblue") +
+  geom_text(aes(label = paste0(Percentual, "%")), 
+                hjust = 0.5, size = 3.5) +  # rótulos/percentuais
+  #coord_flip() +                           # Barras na horizontal
+  labs(title = "Intensão de Voto 1º Turno",
+       x = "CANDIDATOS",
+       y = "Percentual (%)") +
+  scale_y_continuous(limits = c(0, 30),            # Limites do eixo Y
+                     breaks = seq(0, 30, by = 5),  # Intervalos de 5 em 5
+                     labels = function(x) paste0(x, "%")) +
+  theme(axis.text.x = element_text(face = "bold"),
+        plot.title = element_text(hjust = 0.5))+ 
+  theme_gray()
+ggplotly(grafico1)                          # Deixar Interativo
 ```
 
 
@@ -10,17 +87,3 @@
 :::
 :::
 
-
-
-# **Análise Quantitativa**
-
-
-Inicialmente, foi aplicado um Pesquisa Eleitoral Mista, dividida uma parte quantitativa com 23 perguntas fechada, e, uma parte qualitativa, composta de 5 perguntas abertas. Como primeira etapa estatística, foi verificado a consistência dos questionário aplicados, fazendo a revisão sistemática de todos os itens quantitativos do instrumento, com montagem e manutenção de um banco de dados na Linguagem de Programação $R_{4.4}$.
-
-Posteriormente, foi gerado uma Análise Descritiva de Dados, combinando todos os itens do questionário discriminados em dois cenários para intenção de votos de forma Espontânea e Estimulada. Por conseguinte, a análise descritiva foi pautada em tabelas de contingência dos candidatos versus características socioeconômica, Problemas estruturantes em cenários de Possível Votação e Não Votação.
-
-
-::: progress
-::: {.progress-bar style="width: 100%;"}
-:::
-:::

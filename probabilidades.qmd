@@ -1,8 +1,12 @@
+
+
 ```{=html}
 <style>
   body{text-align: justify}
 </style>
 ```
+
+
 ::: progress
 ::: {.progress-bar style="width: 100%;"}
 :::
@@ -14,7 +18,48 @@ Com base nas respostas de Intenção de voto pata Prefeito, discriminadas por ca
 
 Nesse contexto, foi gerado um Modelo de Probabilidade pra Votação no Candidato Mello, usando a Técnica Estatística de "**Regressão Logística Binária Múltipla**", levando em consideração todas as variáveis socioeconômicas e estruturantes da parte quantitativa da pesquisa.
 
-O modelo de previsão final, após diversas simulações, com base nos critérios de parcimônia e erro de classificação e ajustes, ficou com coeficiente de explicação de 79% e erro de 21%.
+
+Um modelo de regressão pode ser definido como uma equação matemática em que
+se expressa o relacionamento de variáveis. Nestes modelos, define-se uma variável
+dependente (Y), ou variável de saída, e procura-se verificar a influência de uma ou mais
+variáveis ditas variáveis independentes, causais ou explicativas (X’s) sobre esta variável
+dependente. Na equação (1) a seguir, vê-se um exemplo de um modelo de regressão linear. 
+
+
+$$ Y_{i} = \beta_{0} + \beta_{1}X-{1}+ \beta_{2}X-{2}+\ldots+\beta_{i}X-{i}+\epsilon_{i}$$
+Onde:
+
+$Y_{i}$: representa a variável dependente;
+$β_{i}$ : são os coeficientes de regressão;
+$X_{i}$ : são as variáveis independentes;
+$ε_{i}$: erro aleatório
+
+
+A regressão logística consiste em um tipo de regressão aplicável e preferida quando
+se tem uma variável dependente categórica dicotômica, ou seja, uma variável nominal ou
+não métrica que possui apenas dois grupos ou classificações como resultados possíveis. 
+
+
+Na regressão logística, a probabilidade de ocorrência de um evento pode ser
+estimada diretamente. No caso da variável dependente $Y$ assumir apenas dois possíveis
+estados (1 ou 0) e haver um conjunto de p variáveis independentes $X_{1},X_{2} ,\ldots,X_{p}$, o
+modelo de regressão logística pode ser escrito da seguinte forma:
+
+$$ P(Y = 1) = \frac{1}{1+e^{-g(x)}}  $$
+
+Onde:
+
+$$g(x) = \beta_{0}+\beta_{1}X_{1i}+\ldots+\beta_{p}X_{pi}$$
+
+
+::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+:::
+
+
+
+O modelo de probabilidade final, após diversas simulações, com base nos critérios de parcimônia e erro de classificação e ajustes, ficou com coeficiente de explicação de 96%.
 
 $$ P(Y = Votar_{(Melo)}) = a \ Probabilidade de \ Votar \ no \ Candidadto \ Melo$$
 
